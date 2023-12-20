@@ -1,0 +1,67 @@
+header{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .sticky-header{
+    position: fixed;
+    top: 48px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 90%;
+    height: 4.5rem;
+    z-index: 1;
+    div{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 130px;
+      img{
+      align-self: center;
+      margin-left: 20px;
+      width: 30px;
+      }
+      span{
+      align-self: center;
+      text-transform: uppercase;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      }
+    }
+    
+    label{
+      align-self: center;
+      margin-right: 20px;
+      font-weight: bold;
+      font-size: 28px;
+      a{
+        text-decoration: none;
+        color: black ;
+      }
+    }
+  }
+  .hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../images/slider_background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    h1{
+      color: white;
+      text-align: center;
+      font-size: 48px;
+      span{
+        text-transform: capitalize;
+        background-color: #ffb606;
+        padding: 0 10px;
+      }
+    }
+    
+  }
